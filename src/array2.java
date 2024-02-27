@@ -14,5 +14,7 @@ public class array2 {
             sum = sum + number[i];
         }
         System.out.println("sum: " + sum);
+        double avg = sum / 5;
+        System.out.println("Average is: " + avg);
     }
 }
